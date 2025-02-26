@@ -1,0 +1,4 @@
+.env
+../fly.toml
+../fly.toml~
+*.toml~

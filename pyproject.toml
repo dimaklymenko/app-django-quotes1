@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "goit-web-hw-13-django"
+version = "0.1.0"
+description = ""
+authors = ["dimaklymenko <dimaliar228@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+django = "^5.1.4"
+psycopg2 = "^2.9.10"
+pillow = "^11.1.0"
+black = "^24.10.0"
+mongoengine = "^0.29.1"
+pymongo = {extras = ["srv"], version = "^4.10.1"}
+django-environ = "^0.12.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
